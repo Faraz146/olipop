@@ -1,3 +1,4 @@
+[![Live Demo](https://img.shields.io/badge/Live-white?style=for-the-badge)](https://olipopsoda.vercel.app)
 # Olipop — Premium Parallax Drink Website
 
 A cinematic, scroll-driven, single-page website for the Olipop canned drink brand. Built with **Next.js 16 (App Router)**, featuring scroll-based parallax, auto-rotating drink variants, and a fully responsive dark-mode design.
@@ -11,8 +12,8 @@ A cinematic, scroll-driven, single-page website for the Olipop canned drink bran
 - 🧭 **Sticky glassmorphism navbar** with smooth-scroll & active section tracking
 - 🧃 **6 content sections** — Product, Ingredients, Nutrition, Reviews, FAQ, CTA
 - ⬛ **Dark mode only** — premium aesthetic with Outfit typography
-- � **Premium Case Study** — Dedicated `/about` page detailing the design and engineering process
-- �🔍 **SEO-optimized** — semantic HTML, meta tags, Open Graph
+- 📄 **Premium Case Study** — Dedicated `/about` page detailing the design and engineering process
+- 🔍 **SEO-optimized** — semantic HTML, meta tags, Open Graph
 
 ## Tech Stack
 
@@ -68,4 +69,4 @@ Edit `src/data/drinkData.ts` to customize:
 
 ---
 
-*Built by [Faraz Sualeh](https://faraz-sualeh-portfolio.vercel.app/) • 2026*
+*Built by [Faraz Sualeh](https://faraz-sualeh-portfolio.vercel.app/) • Februrary 2026*
