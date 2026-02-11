@@ -6,7 +6,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  title: "Olipop — A New Kind of Soda",
+  title: "Olipop Soda - Premium Parallax Brand Experience",
   description:
     "Olipop is a modern functional soda brand inspired by classic flavors but made with better ingredients. Prebiotics, botanicals, and plant fiber in every can.",
   keywords: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "lemon ginger soda",
   ],
   openGraph: {
-    title: "Olipop — A New Kind of Soda",
+    title: "Olipop Soda - Premium Parallax Brand Experience",
     description:
       "A modern functional soda brand inspired by classic flavors but made with better ingredients.",
     type: "website",
