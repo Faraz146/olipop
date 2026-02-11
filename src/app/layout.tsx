@@ -24,6 +24,9 @@ export const metadata: Metadata = {
       "A modern functional soda brand inspired by classic flavors but made with better ingredients.",
     type: "website",
   },
+  verification: {
+    google: "IRNGMWSOflcmQkDGa4_r-JGaAorcRxRSLzGi798SAFc",
+  },
 };
 
 export default function RootLayout({
