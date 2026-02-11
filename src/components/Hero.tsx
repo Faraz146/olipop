@@ -109,7 +109,7 @@ export default function Hero() {
                     <p className={styles.drinkDescription}>{variant.description}</p>
                     <div className={styles.ctaGroup}>
                         <Link href="/about" className={`${styles.ctaBtn} ${styles.ctaOutline}`}>
-                            Learn More
+                            View Case Study
                         </Link>
                         <button className={`${styles.ctaBtn} ${styles.ctaSolid}`}>
                             Shop Now
