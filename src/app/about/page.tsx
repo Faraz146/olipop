@@ -6,6 +6,9 @@ export const metadata: Metadata = {
     title: "About — Olipop Case Study",
     description:
         "A deep dive into the design and development of the Olipop premium parallax drink website. Built with Next.js, featuring cinematic scroll animations and a data-driven architecture.",
+    alternates: {
+        canonical: "/about",
+    },
 };
 
 const stats = [

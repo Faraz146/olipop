@@ -5,7 +5,7 @@ export interface DrinkVariant {
   image: string;
   themeColor: string;
 }
-
+ 
 export interface BrandConfig {
   companyName: string;
   tagline: string;
@@ -131,7 +131,7 @@ export const reviews = [
     avatar: "J",
   },
   {
-    name: "Emily R.",
+    name: "Elysa Perry",
     rating: 4,
     text: "The grape flavor brings back childhood memories but in a healthier way. Love the prebiotic benefits!",
     avatar: "E",

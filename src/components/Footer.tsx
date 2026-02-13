@@ -32,6 +32,9 @@ export default function Footer() {
                                     {link.label}
                                 </Link>
                             ))}
+                            <Link href="/about" className={styles.footerLink}>
+                                Case Study
+                            </Link>
                         </div>
                     </div>
                 </div>

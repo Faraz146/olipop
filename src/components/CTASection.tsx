@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import styles from "./CTASection.module.css";
 
 export default function CTASection() {
@@ -12,9 +13,14 @@ export default function CTASection() {
                     Join the movement. Discover functional sodas that taste incredible and
                     support your gut health. Your taste buds will thank you.
                 </p>
-                <button className={styles.ctaBtn}>
-                    Shop Now <span className={styles.ctaArrow}>→</span>
-                </button>
+                <div className={styles.ctaBtnGroup}>
+                    <button className={styles.ctaBtn}>
+                        Shop Now <span className={styles.ctaArrow}>→</span>
+                    </button>
+                    <Link href="/about" className={styles.ctaSecondary}>
+                        View Case Study
+                    </Link>
+                </div>
             </div>
         </section>
     );

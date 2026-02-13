@@ -64,6 +64,37 @@
     transform: translateX(4px);
 }
 
+.ctaBtnGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.ctaSecondary {
+    padding: 18px 48px;
+    border-radius: var(--radius-full);
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: transparent;
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    transition: all var(--transition-medium);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ctaSecondary:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.05);
+}
+
 @media (max-width: 768px) {
     .section {
         padding: 80px 5%;
